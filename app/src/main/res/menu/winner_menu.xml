@@ -25,4 +25,11 @@
         android:title="@string/share"
         android:visible="true"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/rulesFragment"
+        android:icon="@drawable/rules"
+        android:title="@string/rules" />
+    <item
+        android:icon="@drawable/about_android_trivia"
+        android:title="@string/about" />
 </menu>
