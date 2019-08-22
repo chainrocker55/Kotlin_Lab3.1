@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
@@ -29,7 +28,7 @@ class TitleFragment : Fragment() {
     }
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
-        inflater?.inflate(R.menu.menu, menu)
+        inflater?.inflate(R.menu.option_menu, menu)
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return NavigationUI.onNavDestinationSelected(item!!,
